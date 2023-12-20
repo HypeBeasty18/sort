@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Измените цвет ползунка */
+.rc-slider-handle {
+  background-color: #04cb1b; /* Цвет фона (background) по умолчанию */
+  border: 2px solid #04cb1b; /* Граница по умолчанию */
+}
+
+/* Измените цвет фона ползунка при нажатии */
+.rc-slider-handle:active {
+  background-color: #02680e; /* Цвет фона при нажатии */
+  border: 2px solid #02680e; /* Граница при нажатии */
+}
+
+/* Измените окантовку круга (границу) */
+.rc-slider-handle::before {
+  border: 2px solid #04cb1b; /* Цвет окантовки по умолчанию */
+}
+
+/* Измените окантовку круга (границу) при нажатии */
+.rc-slider-handle:active::before {
+  border: 2px solid #02680e; /* Цвет окантовки при нажатии */
+}
+
+/* Измените цвет полосы между ползунками */
+.rc-slider-track {
+  background-color: #04cb1b;
+}
+
+/* Измените цвет фона полосы, когда она не выбрана */
+.rc-slider-rail {
+  background-color: #ccc;
+}
+
+.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging{
+  box-shadow: none;
+  border: none;
+}
